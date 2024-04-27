@@ -1,0 +1,26 @@
+.navbar{
+    background-color: #fa9976;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.logoImg{
+    width: 10vw;
+}
+
+.logoWithMargin {
+    margin-right: 57%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .logoImg{
+        width: 17vw;
+    }
+    }
+
+    @media screen and (max-width: 514px) {
+        .logoImg{
+            width: 21vw;
+        }
+        }

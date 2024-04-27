@@ -1,0 +1,40 @@
+.lastBanner{
+    width: 100%;
+    display: flex;
+}
+
+.lastBannerText{
+    width: 50%;
+    padding: 4vw;
+}
+
+.lastBanrImg{
+    width: 35%;
+}
+
+.faqs{
+    text-align: center;
+}
+
+@media (max-width: 330px) {
+    .lastBanner{
+        width: 100%;
+        display: grid;
+    }
+    .lastBannerText{
+        width: 100%;
+    }
+}
+
+@media (min-width: 331px)and (max-width: 740px) {
+    .lastBanner{
+        width: 100%;
+        display: grid;
+    }
+    .lastBannerText{
+        width: 100%;
+    }
+    .lastBanrImg{
+        width: 100%;
+    }
+}

@@ -1,0 +1,265 @@
+
+.mainBanner{
+    display: flex;
+    background-color: #ffa989;
+    height: 60%;
+    width: 100%;
+}
+
+.bannerText{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 9vw;
+    width: 50%;
+    font-size: 90%;
+}
+.bannerImg{
+    width: 50%;
+    align-content: center;
+}
+.banrImg1{
+    width: 90%;
+
+
+}
+.bannerBtn{
+    font-size: 90%;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.bannerBtn a{
+    text-decoration: none;
+    color: black;
+}
+
+.highlights{
+    margin: 60px 0 20px 0;
+    padding: 25px;
+    display: grid;
+    text-align: center;
+}
+
+.solutionRow{
+    display: flex;
+    justify-content: space-evenly;
+}
+.solution{
+    width: 32%;
+    text-align: center;
+    padding: 10px;
+}
+.solImg{
+    width: 20vw;
+}
+
+.div3{
+    margin: 60px 0 20px 0;
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+}
+.onlineShop{
+    /*height: 90%;*/
+    width: 40%;
+}
+.div3Content{
+    width: 50%;
+}
+.div3List{
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+.div3List li{
+    margin: 10px;
+    font-weight: bold;
+}
+
+.banner2Text{
+    color: white;
+    padding: 10vw 20vw ;
+    font-size: 15px;
+}
+
+.pricingBlock{
+    margin:30px 0 30px 0;
+    text-align: center;
+}
+.packages{
+    margin: 30px 0 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    /*justify-content: space-between;*/
+}
+.pack{
+    padding: 20px;
+    text-align: left;
+    width: 32%;
+    border: solid #a2a2a2 1px;
+}
+.pack:hover{
+    border: none;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+    transition-duration: 0.6s;
+}
+.packList{
+    list-style: none;
+    color: #606060;
+}
+
+.lastBanner{
+    width: 100%;
+    display: flex;
+}
+.lastBannerText{
+    width: 50%;
+    padding: 4vw;
+}
+.lastBanrImg{
+    width: 50%;
+}
+
+.faqs{
+    text-align: center;
+}
+
+@media (max-width: 330px) {
+
+    .mainBanner{
+        display: grid;
+        height: 100%;
+    }
+    .bannerText{
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding: 9vw;
+        width: 100%;
+        font-size: 20px;
+    }
+    .bannerImg{
+        width: 100%;
+    }
+    .banrImg1{
+        width: 90%;
+    }
+    .highlights{
+        margin: 60px 0 20px 0;
+        padding: 25px;
+        display: grid;
+        text-align: center;
+    }
+
+    .solutionRow{
+        display: grid;
+        justify-content: space-evenly;
+    }
+    .solution{
+        width: 100%;
+    }
+    .solImg{
+        width: 100%;
+    }
+
+    .div3{
+        display: grid;
+    }
+
+    .div3Content{
+        width: 100%;
+    }
+    .onlineShop{
+        width: 100%;
+    }
+
+    .packages{
+        display: grid;
+        grid-gap: 20px;
+        padding: 20px;
+    }
+    .pack{
+        width: 100%;
+    }
+
+    .lastBanner{
+        width: 100%;
+        display: grid;
+    }
+    .lastBannerText{
+        width: 100%;
+    }
+
+}
+@media (min-width: 331px)and (max-width: 740px) {
+
+    .mainBanner{
+        display: grid;
+        height: 100%;
+    }
+    .bannerText{
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding: 9vw;
+        width: 100%;
+        font-size: 20px;
+    }
+    .bannerImg{
+        width: 100%;
+    }
+    .banrImg1{
+        width: 90%;
+    }
+    .highlights{
+        margin: 60px 0 20px 0;
+        padding: 25px;
+        display: grid;
+        text-align: center;
+    }
+
+    .solutionRow{
+        display: grid;
+        justify-content: space-evenly;
+    }
+    .solution{
+        width: 100%;
+    }
+    .solImg{
+        width: 100%;
+    }
+
+    .div3{
+        display: grid;
+    }
+
+    .div3Content{
+        width: 100%;
+    }
+    .onlineShop{
+        width: 100%;
+    }
+
+    .packages{
+        display: grid;
+        grid-gap: 20px;
+        padding: 20px;
+    }
+    .pack{
+        width: 100%;
+    }
+
+    .lastBanner{
+        width: 100%;
+        display: grid;
+    }
+    .lastBannerText{
+        width: 100%;
+    }
+    .lastBanrImg{
+        width: 100%;
+    }
+}

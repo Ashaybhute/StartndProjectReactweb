@@ -1,0 +1,49 @@
+.Footer{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: rgb(251, 212, 165);
+}
+
+.Footer h5{
+  color: brown;
+}
+
+.Footer h3{
+  color: rgb(218, 57, 218);
+}
+
+.navItem li{
+  color: #000;
+  text-decoration: none;
+  list-style-type: none;
+  
+}  
+  
+  .navItem a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .navItem{
+      padding: 0;
+  }
+
+  .copyrightText{
+    background-color: bisque;
+    text-align: center;
+    color: chocolate;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+
+  .footerIcons a{
+    color: black;
+    text-decoration: none;
+    margin-left: 0.3rem;
+  }
+
+  .linkDivision a{
+    text-decoration: none;
+    color: black;
+  }
